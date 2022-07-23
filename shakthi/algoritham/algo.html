@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .button {
+        width: 100px;
+        height: 30px;
+        background: linear-gradient(to right, black 50%, white 50%);
+        background-size: 200%;
+        background-position: right;
+        transition: all 0.5s ease-out;
+      }
+
+      .button:hover {
+        color: white;
+        background-position: left;
+      }
+    </style>
   </head>
   <body>
+    <div>
+      <button class="button">click</button>
+    </div>
     <script src="algo.js"></script>
   </body>
 </html>
