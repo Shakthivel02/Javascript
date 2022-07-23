@@ -37,7 +37,7 @@ const Prime = (arg) => {
   return isPrime;
 };
 
-//console.log(Prime(7) ? "its a prime number" : "its not a prime number");
+//console.log(Prime(9) ? "its a prime number" : "its not a prime number");
 
 //power of 2:
 
@@ -64,4 +64,14 @@ const ispower = (n) => {
   return (n & (n - 1)) === 0;
 };
 
-console.log(ispower(16));
+//console.log(ispower(16));
+
+//recursive
+const recursiveFactorial = (arg) => {
+  if (arg === 0) {
+    return 1;
+  }
+  return arg * recursiveFactorial(arg - 1);
+};
+
+console.log(recursiveFactorial(4));
