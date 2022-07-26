@@ -31,3 +31,13 @@ function isPrime(n) {
 }
 console.log(isPrime(1));
 console.log(isPrime(5));
+//recursive
+function fibbb(n) {
+    if (n < 2) {
+        return n;
+    }
+    return fibbb(n - 1) + fibbb(n - 2);
+}
+
+console.log(fibbb(2));
+
