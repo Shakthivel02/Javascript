@@ -74,4 +74,4 @@ const recursiveFactorial = (arg) => {
   return arg * recursiveFactorial(arg - 1);
 };
 
-console.log(recursiveFactorial(4));
+//console.log(recursiveFactorial(5));
